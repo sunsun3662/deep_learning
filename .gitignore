@@ -1,0 +1,58 @@
+# ==========================================
+# 实验 / 代码项目通用 .gitignore
+# 只保留：代码文件 + md文档 + 核心配置
+# 自动忽略：输出、数据集、缓存、环境、日志
+# ==========================================
+
+# 1. 输出文件夹（你要忽略的）
+output/
+outputs/
+out/
+result/
+results/
+run/
+runs/
+
+# 2. 数据文件夹（你要忽略的）
+data/
+dataset/
+datasets/
+raw_data/
+test_data/
+
+# 3. 编译器/IDE 缓存
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# 4. 系统文件
+.DS_Store
+Thumbs.db
+
+# 5. 日志文件
+*.log
+*.txt
+logs/
+
+# 6. 环境/虚拟环境（Python）
+env/
+venv/
+ENV/
+__pycache__/
+*.py[cod]
+*.pyd
+*.so
+
+# 7. 模型/权重（不想上传就开）
+# *.pth
+# *.pt
+# *.h5
+# *.ckpt
+# *.onnx
+
+# 8. 临时文件
+tmp/
+temp/
+*.tmp
